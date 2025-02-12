@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3003'; // Set your API base URL here
+const API_BASE_URL = 'https://recommendation-n3d9.vercel.app'; // Set your API base URL here
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
   headers: {
