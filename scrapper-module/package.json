@@ -7,8 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "migrate": "dotenv -e ../.env -- npx prisma migrate dev --schema=./prisma/schema.prisma",
-    "start-cron": "node ./triggers/global.cron.js",
-    "postinstall": "cd ../frontend && npm install && npm run build"
+    "start-cron": "node ./triggers/global.cron.js"
   },
   "dependencies": {
     "@google-cloud/translate": "^8.5.0",
