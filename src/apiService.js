@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = ''; // Set your API base URL here
+const API_BASE_URL = 'https://product-0fxj.onrender.com'; 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
   headers: {

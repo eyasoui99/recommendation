@@ -1,5 +1,0 @@
--- AlterTable
-ALTER TABLE "product" ALTER COLUMN "id_categ" DROP NOT NULL,
-ALTER COLUMN "id_sub_categ" DROP NOT NULL,
-ALTER COLUMN "image_url" DROP NOT NULL,
-ALTER COLUMN "image_url" DROP DEFAULT;
