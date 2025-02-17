@@ -63,6 +63,7 @@ const App = () => {
               <p>Brand: {product.display_name}</p> {/* Adjust based on actual data structure */}
               <p>Score Final: {product.score_final.toFixed(4)}</p>
               <p>Conversion Rate: {product.conversion_rate.toFixed(4)}</p>
+              <p>prix: {product.price.toFixed(4)}</p>
               <p>{product.sub_categ.subcategory_name}</p>
               <a
                 href={product.url}
